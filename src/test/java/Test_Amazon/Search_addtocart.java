@@ -22,6 +22,8 @@ public class Search_addtocart {
 		PageFactory.initElements(driver, this);
 	}
 	
+	//All elements store here
+	
 	public void searchboxop(String product) throws Throwable {
 		searchbox.sendKeys(product);
 		Thread.sleep(2000);
